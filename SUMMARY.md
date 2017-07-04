@@ -9,4 +9,5 @@
 * [mongo相关](mongoxiang-guan.md)
   * [mongo分片测试步骤](mongofen-pian-ce-shi-bu-zou.md)
   * [mongo down掉后的影响和补救办法](mongo-downdiao-hou-de-ying-xiang-he-bu-jiu-ban-fa.md)
+* [RabbitMQ安装和配置](rabbitmqan-zhuang-he-pei-zhi.md)
 
