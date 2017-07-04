@@ -9,8 +9,15 @@ RabbitMQ是一个消息队列协议的实现，服务器端用Erlang语言编写
 2.2、安装rabbitmq-server-3.6.1
 用于建立RabbitMQ服务
  
-2.3、命令行执行语句：pip install pika
+2.3、命令行执行语句：
+```
+pip install pika
+```
 安装python调用库
+
+**2.4 mqtt在python3.4下有bug**
+
+改进方法是将python3.5环境里安装的pika库（python的sites-package包里的相应内容拷贝出来）
 
 
  
@@ -41,11 +48,8 @@ MQ_PASSWORD：RabbitMq服务密码；
 （3）启动监控线程（详见下方4.3）
 
 
-3.3 文件BeopService.py
+3.3 文件DataService.py
  
-
-
- 
 # 4 相关概念
 4.1 消息队列Queue
 如果有多个消费者同时订阅同一个Queue中的消息，Queue中的消息会被平摊给多个消费者，而不是每个消费者都收到所有消息。
