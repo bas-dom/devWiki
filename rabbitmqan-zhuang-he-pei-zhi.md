@@ -24,11 +24,13 @@ pip install pika
 # 3 DataService项目应用
 3.1 文件mainService\__init__.py
  
+```
 MQ_SEND_NAME_LIST：预设发送消息队列名称；
 MQ_RECEIVE_NAME：预设接收消息队列名称；
 MQ_ADDRESS：RabbitMq服务地址；
 MQ_USERNAME：RabbitMq服务用户名；
 MQ_PASSWORD：RabbitMq服务密码；
+```
 
 3.2 新增文件夹mod_MsgQueue
  
@@ -71,11 +73,34 @@ MQ_PASSWORD：RabbitMq服务密码；
 在安装了mqserver的计算机上，使用命令行来完成以下的步骤，先进入目录：C:\Program Files\RabbitMQ Server\rabbitmq_server-3.6.1\sbin，该目录下有个批处理文件，rabbitmqctl.bat，消息队列的管理和配置全部是由它来完成的。
 1）	先删除掉系统默认的用户
 输入“rabbitmqctl delete_user guest”，删除掉系统默认的“guest”用户，因为默认安装好rabbitServer之后，guest是administrator权限，没有访问的限制。
+
 2）	增加自定义的用户
-输入“rabbitmqctl add_user MyUserName MyPassword”，这句话的含义是添加“MyUserName”这个用户，并设置密码是“MyPassword”
+输入命令添加“MyUserName”这个用户，并设置密码是“MyPassword”
+
+
+```
+rabbitmqctl add_user MyUserName MyPassword
+
+```
+
+
 3）	设置用户的标签
-输入“rabbitmqctl set_user_tags MyUserName administrator”，设置用户的标签。
+输入设置用户的标签:
+```
+rabbitmqctl set_user_tags MyUserName administrator
+```
+
 4）	添加用户的访问权限
-输入“rabbitmqctl set_permissions -p / MyUserName  ".*" ".*" ".*"”，意思是设置用户“MyUserName ”具有全部的访问权限，“/”的含义是visual host，我们现在还用不着，就是一个虚拟的名称，可以指定用户在这个名称下有效，并具有一定的权限。
+输入
+```
+rabbitmqctl set_permissions -p / MyUserName  ".*" ".*" ".*"
+```
+意思是设置用户“MyUserName ”具有全部的访问权限，“/”的含义是visual host，我们现在还用不着，就是一个虚拟的名称，可以指定用户在这个名称下有效，并具有一定的权限。
+
 5）启动用户的授权
-输入“rabbitmqctl authenticate_user MyUserName MyPassword”。这样，客户端需要访问mq，就需要用户名和密码了
+输入
+```
+rabbitmqctl authenticate_user MyUserName MyPassword
+```
+
+这样，客户端需要访问mq，就需要用户名和密码了
