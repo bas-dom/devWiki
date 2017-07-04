@@ -11,4 +11,5 @@
   * [mongo down掉后的影响和补救办法](mongo-downdiao-hou-de-ying-xiang-he-bu-jiu-ban-fa.md)
 * [RabbitMQ安装和配置](rabbitmqan-zhuang-he-pei-zhi.md)
 * [计算诊断后台维护与重启方法](ji-suan-zhen-duan-hou-tai-wei-hu-yu-zhong-qi-fang-fa.md)
+* [DTU-Server收到数据后的数据流转流程](dtu-servershou-dao-shu-ju-hou-de-shu-ju-liu-zhuan-liu-cheng.md)
 
