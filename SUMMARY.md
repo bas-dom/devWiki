@@ -8,4 +8,5 @@
   * [CentOS部署phantomJs的步骤](ubuntuxi-tong-shang-de-cao-zuo/centos.md)
 * [mongo相关](mongoxiang-guan.md)
   * [mongo分片测试步骤](mongofen-pian-ce-shi-bu-zou.md)
+  * [mongo down掉后的影响和补救办法](mongo-downdiao-hou-de-ying-xiang-he-bu-jiu-ban-fa.md)
 
