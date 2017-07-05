@@ -14,4 +14,6 @@
 * RabbitMQ相关
   * [RabbitMQ安装和配置](rabbitmqan-zhuang-he-pei-zhi.md)
   * [MQTT权限建立和接入](mqttquan-xian-jian-li-he-jie-ru.md)
+  * [MQ配置地址必须是IP](mqpei-zhi-di-zhi-bi-xu-shi-ip.md)
+* [代码规范](dai-ma-gui-fan.md)
 
