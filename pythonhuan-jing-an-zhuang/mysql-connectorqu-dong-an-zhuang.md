@@ -8,7 +8,7 @@ mysql-connector-python驱动目前官方网站版本为2.1以上
 
 
 # 手动安装方法 #
-安装mysql-connector-python时，有两种方式，推荐使用第一种：
+安装mysql-connector-python时，有两种方式，推荐使用第二种：
 
 第一种：下载 mysql-connector-python-1.2.2.tar.gz （公网ftp的setup - programming下）
 
@@ -18,7 +18,7 @@ mysql-connector-python驱动目前官方网站版本为2.1以上
 python setup.py install
 ```
 
-第二种，一部分计算安装后运行python，import \_socket会出错，就表示没有安装成功。
+第二种方案，不需要手动下载代码包：
 
 ```
 pip3 install --egg http://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-1.2.2.zip
