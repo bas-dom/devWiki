@@ -21,4 +21,6 @@
   * [mainService后台python环境搭建](pythonhuan-jing-an-zhuang/mainservicehou-tai-python-huan-jing-da-jian.md)
 * [nginx](nginxshe-zhi.md)
   * [EIC项目后台设置](eicxiang-mu-hou-tai-she-zhi.md)
+* [Redis](redis.md)
+  * [Redis环境部署](redis/redishuan-jing-bu-shu.md)
 
