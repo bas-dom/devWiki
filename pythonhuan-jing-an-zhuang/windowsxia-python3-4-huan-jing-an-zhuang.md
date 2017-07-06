@@ -3,5 +3,10 @@
 3. 重启计算机
 4. 使用PIP安装其他必须的插件库
 
+* pip install flask
+* pip install requests
+
+
+
 
 
