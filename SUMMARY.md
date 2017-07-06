@@ -18,4 +18,7 @@
 * [代码规范](dai-ma-gui-fan.md)
 * [python环境安装](pythonhuan-jing-an-zhuang.md)
   * [windows下python3.4环境安装](pythonhuan-jing-an-zhuang/windowsxia-python3-4-huan-jing-an-zhuang.md)
+  * [mainService后台python环境搭建](pythonhuan-jing-an-zhuang/mainservicehou-tai-python-huan-jing-da-jian.md)
+* [nginx设置](nginxshe-zhi.md)
+* [EIC项目后台设置](eicxiang-mu-hou-tai-she-zhi.md)
 
