@@ -15,9 +15,8 @@ pip install requests
 ```
 
 安装mysql-connector-python ：
- 到Mysql官网下载对应版本的MySQL connector:
- 
-   https://dev.mysql.com/downloads/connector/python/
 
 
-
+```
+pip3 install --egg http://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-1.2.2.zip
+```
