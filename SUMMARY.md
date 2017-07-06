@@ -1,8 +1,6 @@
 # Summary
 
 * [文档介绍](README.md)
-* [内部文档](inwhileWiki/README.md)
-  * [python+selenium构建自动化测试环境](inwhileWiki/python+selenium构建自动化测试环境.md)
 * [ubuntu系统上的操作](ubuntuxi-tong-shang-de-cao-zuo.md)
   * [环境安装和搭建](ubuntuxi-tong-shang-de-cao-zuo/huan-jing-an-zhuang-he-da-jian.md)
   * [CentOS部署phantomJs的步骤](ubuntuxi-tong-shang-de-cao-zuo/centos.md)
@@ -14,11 +12,11 @@
   * [MQTT权限建立和接入](mqttquan-xian-jian-li-he-jie-ru.md)
   * [MQ配置地址必须是IP](mqpei-zhi-di-zhi-bi-xu-shi-ip.md)
   * [阿里云专有网络ECS上部署RabbitMQ](a-li-yun-zhuan-you-wang-luo-ecs-shang-bu-shu-rabbitmq.md)
-* [代码规范](dai-ma-gui-fan.md)
 * [python环境安装](pythonhuan-jing-an-zhuang.md)
   * [windows下python3.4环境安装](pythonhuan-jing-an-zhuang/windowsxia-python3-4-huan-jing-an-zhuang.md)
   * [mainService后台python环境搭建](pythonhuan-jing-an-zhuang/mainservicehou-tai-python-huan-jing-da-jian.md)
   * [mysql connector驱动安装技巧](pythonhuan-jing-an-zhuang/mysql-connectorqu-dong-an-zhuang.md)
+  * [python+selenium构建自动化测试环境](inwhileWiki/python+selenium构建自动化测试环境.md)
   * [ECS上SMTP发送邮件不能使用25](pythonhuan-jing-an-zhuang/ecsshang-smtp-fa-song-you-jian-bu-neng-shi-yong-25.md)
 * [nginx](nginxshe-zhi.md)
   * [EIC项目后台设置](eicxiang-mu-hou-tai-she-zhi.md)
@@ -27,6 +25,4 @@
 * [后台运维](hou-tai-yun-wei.md)
   * [DTU-Server收到数据后的数据流转流程](dtu-servershou-dao-shu-ju-hou-de-shu-ju-liu-zhuan-liu-cheng.md)
   * [计算诊断后台维护与重启方法](ji-suan-zhen-duan-hou-tai-wei-hu-yu-zhong-qi-fang-fa.md)
-
-
 
