@@ -16,4 +16,6 @@
   * [MQTT权限建立和接入](mqttquan-xian-jian-li-he-jie-ru.md)
   * [MQ配置地址必须是IP](mqpei-zhi-di-zhi-bi-xu-shi-ip.md)
 * [代码规范](dai-ma-gui-fan.md)
+* [python环境安装](pythonhuan-jing-an-zhuang.md)
+  * [windows下python3.4环境安装](pythonhuan-jing-an-zhuang/windowsxia-python3-4-huan-jing-an-zhuang.md)
 
