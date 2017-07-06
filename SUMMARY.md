@@ -25,4 +25,5 @@
 * [后台运维](hou-tai-yun-wei.md)
   * [DTU-Server收到数据后的数据流转流程](dtu-servershou-dao-shu-ju-hou-de-shu-ju-liu-zhuan-liu-cheng.md)
   * [计算诊断后台维护与重启方法](ji-suan-zhen-duan-hou-tai-wei-hu-yu-zhong-qi-fang-fa.md)
+* [使用葵码远程控制](shi-yong-kui-ma-yuan-cheng-kong-zhi.md)
 
