@@ -3,9 +3,18 @@
 3. 重启计算机
 4. 使用PIP安装其他必须的插件库
 
-   1. pip install flask
+```
+pip install flask
 
-   2. pip install requests
+```
+```
+pip install requests
+```
+
+安装mysql-connector-python ：
+ 到Mysql官网下载对应版本的MySQL connector:
+ 
+   https://dev.mysql.com/downloads/connector/python/
 
 
 
