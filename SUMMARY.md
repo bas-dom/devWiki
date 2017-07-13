@@ -27,4 +27,5 @@
   * [计算诊断后台维护与重启方法](ji-suan-zhen-duan-hou-tai-wei-hu-yu-zhong-qi-fang-fa.md)
 * [常用工具](chang-yong-gong-ju.md)
   * [使用葵码远程控制](shi-yong-kui-ma-yuan-cheng-kong-zhi.md)
+* [windows下安装chromedriver](chromedriver/README.md)
 
