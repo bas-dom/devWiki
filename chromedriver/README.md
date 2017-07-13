@@ -1,7 +1,7 @@
 # windows下安装chormedriver
 
 1. 确认 自己chrome浏览器的版本
-   1. | 下面是chromedriver和chorme对应版本 |
+   1. \| 下面是chromedriver和chorme对应版本 \|
 
 | chromedriver版本 | 支持的Chrome版本 |
 | :--- | :--- |
@@ -33,13 +33,13 @@
 | v2.5 | v29-32 |
 | v2.4 | v29-32 |
 
-
 ```
 转载http://blog.csdn.net/huilan_same/article/details/51896672
 ```
 
 
-2. 
+
+2. 下载并将chormedriver解压到C:\Python\Python35\Scripts
 
 
 
