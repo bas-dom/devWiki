@@ -30,4 +30,5 @@
 * [windows下安装chromedriver](chromedriver/README.md)
 * [办公环境维护](ban-gong-huan-jing-wei-hu.md)
   * [1.3服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
+  * 1.3服务器运行ngrok反向代理的方法
 
