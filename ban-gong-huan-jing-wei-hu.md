@@ -1,6 +1,6 @@
-cmd运行命令：
+cmd运行如下命令：
+
 
 ```
 ngrok.exe http 80
-
 ```
