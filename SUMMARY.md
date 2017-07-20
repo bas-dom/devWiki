@@ -18,10 +18,10 @@
   * [mysql connector驱动安装技巧](pythonhuan-jing-an-zhuang/mysql-connectorqu-dong-an-zhuang.md)
   * [python+selenium构建自动化测试环境](inwhileWiki/python+selenium构建自动化测试环境.md)
   * [ECS上SMTP发送邮件不能使用25](pythonhuan-jing-an-zhuang/ecsshang-smtp-fa-song-you-jian-bu-neng-shi-yong-25.md)
-* [nginx](nginxshe-zhi.md)
-  * [EIC项目后台设置](eicxiang-mu-hou-tai-she-zhi.md)
 * [Redis](redis.md)
   * [Redis环境部署](redis/redishuan-jing-bu-shu.md)
+* [nginx](nginxshe-zhi.md)
+  * [EIC项目后台设置](eicxiang-mu-hou-tai-she-zhi.md)
 * [后台运维](hou-tai-yun-wei.md)
   * [DTU-Server收到数据后的数据流转流程](dtu-servershou-dao-shu-ju-hou-de-shu-ju-liu-zhuan-liu-cheng.md)
   * [计算诊断后台维护与重启方法](ji-suan-zhen-duan-hou-tai-wei-hu-yu-zhong-qi-fang-fa.md)
@@ -31,4 +31,5 @@
 * [办公环境维护](ban-gong-huan-jing-wei-hu.md)
   * [1.3服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
   * [1.3服务器运行ngrok反向代理的方法](ban-gong-huan-jing-wei-hu/13fu-wu-qi-yun-xing-ngrok-fan-xiang-dai-li-de-fang-fa.md)
+* [ngrok穿透内网](ngrok/README.md)
 
