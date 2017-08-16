@@ -29,7 +29,8 @@
   * [使用葵码远程控制](shi-yong-kui-ma-yuan-cheng-kong-zhi.md)
 * [windows下安装chromedriver](chromedriver/README.md)
 * [办公环境维护](ban-gong-huan-jing-wei-hu.md)
-  * [1.3服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
-  * [1.3服务器运行ngrok反向代理的方法](ban-gong-huan-jing-wei-hu/13fu-wu-qi-yun-xing-ngrok-fan-xiang-dai-li-de-fang-fa.md)
+  * [开发和内网服务器维护方法](ban-gong-huan-jing-wei-hu/kai-fa-he-nei-wang-fu-wu-qi-wei-hu-fang-fa.md)
+  * [服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
+  * [服务器运行ngrok反向代理的方法](ban-gong-huan-jing-wei-hu/13fu-wu-qi-yun-xing-ngrok-fan-xiang-dai-li-de-fang-fa.md)
 * [ngrok穿透内网](ngrok/README.md)
 
