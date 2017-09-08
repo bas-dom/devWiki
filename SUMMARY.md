@@ -33,4 +33,6 @@
   * [服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
   * [服务器运行ngrok反向代理的方法](ban-gong-huan-jing-wei-hu/13fu-wu-qi-yun-xing-ngrok-fan-xiang-dai-li-de-fang-fa.md)
 * [ngrok穿透内网](ngrok/README.md)
+* [mainService运维](mainserviceyun-wei.md)
+  * [上线重启流程](mainserviceyun-wei/shang-xian-zhong-qi-liu-cheng.md)
 
