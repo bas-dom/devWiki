@@ -22,3 +22,7 @@ ajax的请求均为**异步**请求，而浏览器地址栏的地址输入后发
 两种方案任选其一。
 如果文件在服务端是以文件方式已经存储好的，建议第一种；
 使用三方控件，动态生成的，使用第二种
+
+
+参考链接：
+[https://stackoverflow.com/questions/34586671/download-pdf-file-using-jquery-ajax](https://stackoverflow.com/questions/34586671/download-pdf-file-using-jquery-ajax)
