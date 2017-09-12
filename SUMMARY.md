@@ -1,5 +1,7 @@
 # Summary
 
+## 后台运维
+
 * [文档介绍](README.md)
 * [ubuntu系统上的操作](ubuntuxi-tong-shang-de-cao-zuo.md)
   * [环境安装和搭建](ubuntuxi-tong-shang-de-cao-zuo/huan-jing-an-zhuang-he-da-jian.md)
@@ -39,4 +41,8 @@
 ## 前端开发
 
 * [ajax异步请求返回浏览器下载问题](qian-duan-kai-fa/ajaxyi-bu-qing-qiu-fan-hui-liu-lan-qi-xia-zai-wen-ti.md)
+
+## 后台开发
+
+* [matplot绘画出现main thread is not in main loop](hou-tai-kai-fa/matplothui-hua-chu-xian-main-thread-is-not-in-main-loop.md)
 
