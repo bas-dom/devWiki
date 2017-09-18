@@ -39,6 +39,8 @@
 * [ngrok穿透内网](ngrok/README.md)
 * [mainService运维](mainserviceyun-wei.md)
   * [上线重启流程](mainserviceyun-wei/shang-xian-zhong-qi-liu-cheng.md)
+* [阿里云控制台运维](a-li-yun-kong-zhi-tai-yun-wei.md)
+  * [不同帐号的专有网络怎样互相访问内网](a-li-yun-kong-zhi-tai-yun-wei/bu-tong-zhang-hao-de-zhuan-you-wang-luo-zen-yang-hu-xiang-fang-wen-nei-wang.md)
 
 ## 前端开发
 
