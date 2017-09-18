@@ -9,6 +9,7 @@
 * [mongo相关](mongoxiang-guan.md)
   * [mongo分片测试步骤](mongofen-pian-ce-shi-bu-zou.md)
   * [mongo down掉后的影响和补救办法](mongo-downdiao-hou-de-ying-xiang-he-bu-jiu-ban-fa.md)
+  * [mongo和supervisor配合的几个坑](mongohe-supervisor-pei-he-de-ji-ge-keng.md)
 * RabbitMQ相关
   * [RabbitMQ安装和配置](rabbitmqan-zhuang-he-pei-zhi.md)
   * [MQTT权限建立和接入](mqttquan-xian-jian-li-he-jie-ru.md)
