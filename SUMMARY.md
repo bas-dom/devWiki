@@ -31,16 +31,17 @@
   * [计算诊断后台维护与重启方法](ji-suan-zhen-duan-hou-tai-wei-hu-yu-zhong-qi-fang-fa.md)
 * [常用工具](chang-yong-gong-ju.md)
   * [使用葵码远程控制](shi-yong-kui-ma-yuan-cheng-kong-zhi.md)
-* [windows下安装chromedriver](chromedriver/README.md)
 * [办公环境维护](ban-gong-huan-jing-wei-hu.md)
   * [开发和内网服务器维护方法](ban-gong-huan-jing-wei-hu/kai-fa-he-nei-wang-fu-wu-qi-wei-hu-fang-fa.md)
   * [服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
+  * [ngrok穿透内网](ngrok/README.md)
   * [服务器运行ngrok反向代理的方法](ban-gong-huan-jing-wei-hu/13fu-wu-qi-yun-xing-ngrok-fan-xiang-dai-li-de-fang-fa.md)
-* [ngrok穿透内网](ngrok/README.md)
 * [mainService运维](mainserviceyun-wei.md)
   * [上线重启流程](mainserviceyun-wei/shang-xian-zhong-qi-liu-cheng.md)
 * [阿里云控制台运维](a-li-yun-kong-zhi-tai-yun-wei.md)
   * [不同帐号的专有网络怎样互相访问内网](a-li-yun-kong-zhi-tai-yun-wei/bu-tong-zhang-hao-de-zhuan-you-wang-luo-zen-yang-hu-xiang-fang-wen-nei-wang.md)
+* [自动化测试](zi-dong-hua-ce-shi.md)
+  * [windows下安装chromedriver](chromedriver/README.md)
 
 ## 前端开发
 
@@ -49,4 +50,6 @@
 ## 后台开发
 
 * [matplot绘画出现main thread is not in main loop](hou-tai-kai-fa/matplothui-hua-chu-xian-main-thread-is-not-in-main-loop.md)
+
+
 
