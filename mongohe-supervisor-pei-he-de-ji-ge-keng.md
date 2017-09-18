@@ -27,6 +27,9 @@ supervisor监看mongo时出的意外：mongo意外重启后需要很长世间（
 [root@iZ232y638ghZ db_configure]# mongod --config /mnt/project/db_hisdata/mongod.conf
 about to fork child process, waiting until server is ready for connections.
 forked process: 1078
+```
+注意，这里child process启动不了的话，需要查看mongo的log文件进行原因排查
+```
 
 （这里等待了三分钟，而且此时如果用supervisor在重启的话另一个shell里很多卡死现象！不得不重启服务器）
 
