@@ -46,10 +46,9 @@
 ## 前端开发
 
 * [ajax异步请求返回浏览器下载问题](qian-duan-kai-fa/ajaxyi-bu-qing-qiu-fan-hui-liu-lan-qi-xia-zai-wen-ti.md)
+* [om-site中当图片请求失败后一直loading问题](qian-duan-kai-fa/om-sitezhong-dang-tu-pian-qing-qiu-shi-bai-hou-yi-zhi-loading-wen-ti.md)
 
 ## 后台开发
 
 * [matplot绘画出现main thread is not in main loop](hou-tai-kai-fa/matplothui-hua-chu-xian-main-thread-is-not-in-main-loop.md)
-
-
 
