@@ -89,7 +89,7 @@ var timer = setInterval(function (e) {
 }, 500);
 ```
 
-新的bug是因为可能会出现数据无法加载的情况。所以在refreshData方法的最后一行以及update文字的一行 添加isReadyData = true 标记数据已经加载完。代码如下
+新的bug是因为可能会出现数据无法加载的情况。所以在**refreshData方法的最后一行以及update文字数据(文字的数据是最后一个加载的数据，所以这里也添加了一个)**的一行 添加isReadyData = true 标记数据已经加载完。代码如下
 
 ```
 refreshData: function (e) { 
@@ -149,7 +149,7 @@ refreshData: function (e) {
                                 _this.dictTexts[item.texts[j]].update(e.data[i].constructor === Object && e.data[i].value ? e.data[i].value : '--');
                             }
                         }
-                        _this.isDataReady = true; //新添加
+                        _this.isDataReady = true; //新添加 
                         continue
                     }
 
@@ -163,7 +163,7 @@ refreshData: function (e) {
                             _this.dictRulers[item.rulers[j]].update(e.data[i].name, e.data[i].value);
                         }
                     }
-                    
+
                 }
             }
             // 防止同一个温度图多次绘制
@@ -186,6 +186,7 @@ refreshData: function (e) {
 
         _this.isDataReady = true; //新添加
     },
-
 ```
+
+
 
