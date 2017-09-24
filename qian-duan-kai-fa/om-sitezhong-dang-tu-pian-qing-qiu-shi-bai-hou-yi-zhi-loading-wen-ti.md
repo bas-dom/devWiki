@@ -24,7 +24,7 @@
 
 # 解决方案
 
-最初的解决方案是通过增加零时变量，loadtimes记录加载时间，如果超过则认定失败，直接关闭loading。
+最初的解决方案是通过增加临时变量，loadtimes记录加载时间，如果超过则认定失败，直接关闭loading。该方案的问题在于只要图片加载超过3秒后，就会隐藏loading，如果后续还有图片并没有开始加载，都会结束。如果在网速比较慢的时候可能会出现很多图片还没出现，就直接显示页面，用户体验不好。
 
 ```
  var loadtimes = 0 ;
@@ -46,7 +46,7 @@
  },300)
 ```
 
-进过peter修改后，增加了isDataReady（数据是否获取结束）变量判断是改变loading状态
+经过peter修改后，增加了isDataReady（数据是否获取结束）变量判断是改变loading状态。
 
 ```
 var _this = this;
@@ -89,5 +89,5 @@ var timer = setInterval(function (e) {
 }, 500);
 ```
 
-
+新的bug是因为虽然添加了isDataReady。可能也会出现数据无法加载的情况，所以在refreshData函数中多添加了一个isDataReady = true
 
