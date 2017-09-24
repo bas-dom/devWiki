@@ -89,5 +89,103 @@ var timer = setInterval(function (e) {
 }, 500);
 ```
 
-新的bug是因为虽然添加了isDataReady。可能也会出现数据无法加载的情况，所以在refreshData函数中多添加了一个isDataReady = true
+新的bug是因为可能会出现数据无法加载的情况。所以在refreshData方法的最后一行以及update文字的一行 添加isReadyData = true 标记数据已经加载完。代码如下
+
+```
+refreshData: function (e) { 
+        var _this = this.self ? this.self : this;
+        if (e.data && !e.data.error) {
+            var tempDistributionsUpdated = {};
+            for (var i = 0; i < e.data.length; i++) { 
+                var item = _this.dictRefreshMap[e.data[i].name]; 
+                if (item) {
+                    if (item.pipelines) {
+                        for (var j = 0; j < item.pipelines.length; j++) {
+                            var pipline = _this.dictPipelines[item.pipelines[j]];
+                            pipline.dictIdCom[e.data[i].name] = e.data[i].value == 1 ? true : false;
+                        }
+                    }
+                    if (item.equipments) {
+                        for (var j = 0; j < item.equipments.length; j++) {
+                            var equipment = _this.dictEquipments[item.equipments[j]];
+                            equipment.value = e.data[i].value;
+                            equipment.update(null, null);
+                        }
+                    }
+                    if (item.charts) {
+                        for (var j = 0; j < item.charts.length; j++) {
+                            _this.dictCharts[item.charts[j]].update(e.data[i].name, e.data[i].value);
+                        }
+                    }
+                    if (item.gages) {
+                        for (var j = 0; j < item.gages.length; j++) {
+                            _this.dictGages[item.gages[j]].update(e.data[i].value);
+                        }
+                    }
+                    //更新checkbox
+                    if( item.checkboxs ){
+                        for (var j = 0 ; j < item.checkboxs.length ; j++){
+                            // if(!_this.options.bShowTimeShaft){
+                                _this.dictCheckboxs[item.checkboxs[j]].update(e.data[i])
+                            // }
+                        }
+                    }
+                    if(item.buttons) {
+                        for (var j = 0; j < item.buttons.length; j++) {
+                           // console.log(e.data[i])
+                            _this.dictButtons[item.buttons[j]].update(e.data[i])
+                        }
+                    }
+                    if (item.tempDistributions) {
+                        for (var j = 0; j < item.texts.length; j++) {
+                            if (item.tempDistributions && item.tempDistributions.length > 0) {
+                                if (!tempDistributionsUpdated[item.tempDistributions[j]]) {
+                                    tempDistributionsUpdated[item.tempDistributions[j]] = [];
+                                }
+                                tempDistributionsUpdated[item.tempDistributions[j]].push(e.data[i]);
+                                _this.dictTexts[item.texts[j]].update(e.data[i].constructor === Object && e.data[i].value ? e.data[i].value : '--', true);
+                            }
+                            else {
+                                _this.dictTexts[item.texts[j]].update(e.data[i].constructor === Object && e.data[i].value ? e.data[i].value : '--');
+                            }
+                        }
+                        _this.isDataReady = true; //新添加
+                        continue
+                    }
+
+                    if (item.texts) {
+                        for (var j = 0; j < item.texts.length; j++) {
+                            _this.dictTexts[item.texts[j]].update(e.data[i].value);
+                        }
+                    }
+                    if (item.rulers) {
+                        for (var j = 0; j < item.rulers.length; j++) {
+                            _this.dictRulers[item.rulers[j]].update(e.data[i].name, e.data[i].value);
+                        }
+                    }
+                    
+                }
+            }
+            // 防止同一个温度图多次绘制
+            for (var tempId in tempDistributionsUpdated) {
+                var tempUpdatedData = tempDistributionsUpdated[tempId];
+                _this.dictTempDistributions[tempId].update(tempUpdatedData);
+            }
+
+            //TODO: to be removed;
+            for (var pointName in _this.dictCharts) {
+                var chart = _this.dictCharts[pointName];
+                if (!chart.isRunning) {
+                    chart.isRunning = true;
+                    chart.renderChart(chart);
+                }
+            }
+        } else {
+            //new Alert(_this.container, Alert.type.danger, I18n.resource.code[e.data.error]).showAtTop(5000);
+        }
+
+        _this.isDataReady = true; //新添加
+    },
+
+```
 
