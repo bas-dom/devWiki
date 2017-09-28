@@ -47,6 +47,7 @@
 
 * [ajax异步请求返回浏览器下载问题](qian-duan-kai-fa/ajaxyi-bu-qing-qiu-fan-hui-liu-lan-qi-xia-zai-wen-ti.md)
 * [om-site中当图片请求失败后一直loading问题](qian-duan-kai-fa/om-sitezhong-dang-tu-pian-qing-qiu-shi-bai-hou-yi-zhi-loading-wen-ti.md)
+* [om-view中卡片数据同步解决方案](qian-duan-kai-fa/om-viewzhong-qia-pian-shu-ju-tong-bu-jie-jue-fang-an.md)
 
 ## 后台开发
 
