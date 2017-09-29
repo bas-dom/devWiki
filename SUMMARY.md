@@ -48,7 +48,10 @@
 * [ajax异步请求返回浏览器下载问题](qian-duan-kai-fa/ajaxyi-bu-qing-qiu-fan-hui-liu-lan-qi-xia-zai-wen-ti.md)
 * [om-site中当图片请求失败后一直loading问题](qian-duan-kai-fa/om-sitezhong-dang-tu-pian-qing-qiu-shi-bai-hou-yi-zhi-loading-wen-ti.md)
 * [om-view中卡片数据同步解决方案](qian-duan-kai-fa/om-viewzhong-qia-pian-shu-ju-tong-bu-jie-jue-fang-an.md)
-* [Dora-Log](qian-duan-kai-fa/dora-log.md)
+* [Dora]
+  * [调试心得：利用浏览器的调试log发现问题](qian-duan-kai-fa/dora-log.md)
+* [William]
+  * [某某功能的设计]
 * [OM-Lab、OM-View打包上线步骤](qian-duan-kai-fa/om-labom-viewda-bao-shang-xian-bu-zou.md)
 
 ## 后台开发
