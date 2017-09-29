@@ -51,8 +51,8 @@
   * [调试心得：利用浏览器的调试log发现问题](qian-duan-kai-fa/dora-log.md)
 
 * [William WIKI](qian-duan-kai-fa/william.md)
-  * [\[某某功能的设计\]](qian-duan-kai-fa/mou-mou-gong-neng-de-she-8ba15d.md)
-  * [om-site中当图片请求失败后一直loading问题](https://www.gitbook.com/book/bas-dom/devwiki/edit#)
+  * [某某功能的设计](qian-duan-kai-fa/mou-mou-gong-neng-de-she-8ba15d.md)
+  * [om-site中当图片请求失败后一直loading问题](qian-duan-kai-fa/om-sitezhong-dang-tu-pian-qing-qiu-shi-bai-hou-yi-zhi-loading-wen-ti.md)
 * [OM-Lab、OM-View打包上线步骤](qian-duan-kai-fa/om-labom-viewda-bao-shang-xian-bu-zou.md)
 
 ## 后台开发
