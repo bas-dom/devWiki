@@ -6,10 +6,6 @@
 * [ubuntu系统上的操作](ubuntuxi-tong-shang-de-cao-zuo.md)
   * [环境安装和搭建](ubuntuxi-tong-shang-de-cao-zuo/huan-jing-an-zhuang-he-da-jian.md)
   * [CentOS部署phantomJs的步骤](ubuntuxi-tong-shang-de-cao-zuo/centos.md)
-* [mongo相关](mongoxiang-guan.md)
-  * [mongo分片测试步骤](mongofen-pian-ce-shi-bu-zou.md)
-  * [mongo down掉后的影响和补救办法](mongo-downdiao-hou-de-ying-xiang-he-bu-jiu-ban-fa.md)
-  * [mongo和supervisor配合的几个坑](mongohe-supervisor-pei-he-de-ji-ge-keng.md)
 * RabbitMQ相关
   * [RabbitMQ安装和配置](rabbitmqan-zhuang-he-pei-zhi.md)
   * [MQTT权限建立和接入](mqttquan-xian-jian-li-he-jie-ru.md)
@@ -33,30 +29,10 @@
   * [使用葵码远程控制](shi-yong-kui-ma-yuan-cheng-kong-zhi.md)
   * [chrome](chrome.md)
     * [微博图床插件使用](chrome/wei-bo-tu-chuang-cha-jian-shi-yong.md)
-* [办公环境维护](ban-gong-huan-jing-wei-hu.md)
-  * [开发和内网服务器维护方法](ban-gong-huan-jing-wei-hu/kai-fa-he-nei-wang-fu-wu-qi-wei-hu-fang-fa.md)
-  * [服务器Redmine启动方法](ban-gong-huan-jing-wei-hu/13fu-wu-qiredmine-qi-dong-fang-fa.md)
-  * [ngrok穿透内网](ngrok/README.md)
-  * [服务器运行ngrok反向代理的方法](ban-gong-huan-jing-wei-hu/13fu-wu-qi-yun-xing-ngrok-fan-xiang-dai-li-de-fang-fa.md)
 * [mainService运维](mainserviceyun-wei.md)
   * [上线重启流程](mainserviceyun-wei/shang-xian-zhong-qi-liu-cheng.md)
 * [阿里云控制台运维](a-li-yun-kong-zhi-tai-yun-wei.md)
   * [不同帐号的专有网络怎样互相访问内网](a-li-yun-kong-zhi-tai-yun-wei/bu-tong-zhang-hao-de-zhuan-you-wang-luo-zen-yang-hu-xiang-fang-wen-nei-wang.md)
 * [自动化测试](zi-dong-hua-ce-shi.md)
   * [windows下安装chromedriver](chromedriver/README.md)
-
-## 前端开发
-
-* [ajax异步请求返回浏览器下载问题](qian-duan-kai-fa/ajaxyi-bu-qing-qiu-fan-hui-liu-lan-qi-xia-zai-wen-ti.md)
-* [om-view中卡片数据同步解决方案](qian-duan-kai-fa/om-viewzhong-qia-pian-shu-ju-tong-bu-jie-jue-fang-an.md)
-* [Dora WIKI](qian-duan-kai-fa/dora.md)
-  * [调试心得：利用浏览器的调试log发现问题](qian-duan-kai-fa/dora-log.md)
-* [William WIKI](qian-duan-kai-fa/william.md)
-  * [某某功能的设计](qian-duan-kai-fa/mou-mou-gong-neng-de-she-8ba15d.md)
-  * [om-site中当图片请求失败后一直loading问题](qian-duan-kai-fa/om-sitezhong-dang-tu-pian-qing-qiu-shi-bai-hou-yi-zhi-loading-wen-ti.md)
-* [OM-Lab、OM-View打包上线步骤](qian-duan-kai-fa/om-labom-viewda-bao-shang-xian-bu-zou.md)
-
-## 后台开发
-
-* [matplot绘画出现main thread is not in main loop](hou-tai-kai-fa/matplothui-hua-chu-xian-main-thread-is-not-in-main-loop.md)
 
